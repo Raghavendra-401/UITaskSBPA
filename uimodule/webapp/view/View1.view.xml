@@ -1,0 +1,22 @@
+<mvc:View
+    controllerName="ui.task.bpa.uimodule.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <App id="app">
+        <pages>
+            <Page
+                showHeader="false"
+                showFooter="false"
+            >
+                <content>
+                    <Label text="Approver Level " />
+                    <Input value="{context>/approverLevel}" />
+                    <Label text="Approver Name " />
+                    <Input value="{context>/approverName}" />
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
